@@ -1,0 +1,125 @@
+#include<stdio.h>
+
+int main() {
+    int embalagem, calda, cobertura, fruta, adicional;
+
+    printf("=== Bem-vindo à Açaiteria PIL ===\n");
+
+    printf ("\n Escolha o tipo de embalagem:\n");
+    printf ("1 - Taça\n"); 
+    printf ("2 - Copo\n"); 
+    printf ("3 - Barca\n"); 
+    printf ("Opção: "); 
+    scanf ("%d", &embalagem);
+
+switch (embalagem) {
+    case 1:
+    printf ("Você escolheu: taça\n");
+    break;
+    case 2:
+    printf ("Você escolheu: copo\n");
+    break;
+    case 3:
+    printf ("Você escolheu: barca\n");
+    break;
+    
+    default:
+    printf ("Essa embalagem não está disponível!\n");
+    return 1;
+}
+
+ printf ("\n Escolha a calda:\n");
+    printf ("1 - Chocolate\n"); 
+    printf ("2 - Morango\n"); 
+    printf ("3 - Caramelo\n"); 
+    printf ("Opção: "); 
+    scanf ("%d", &calda);
+
+switch (calda) {
+    case 1:
+    printf ("Você escolheu: chocolate\n");
+    break;
+    case 2:
+    printf ("Você escolheu: morango\n");
+    break;
+    case 3:
+    printf ("Você escolheu: caramelo\n");
+    break;
+    
+    default:
+    printf ("Essa calda não está disponível!\n");
+    return 1;
+}
+
+ printf ("\n Escolha a cobertura:\n");
+    printf ("1 - Leite Condesado\n"); 
+    printf ("2 - Chocolate Branco\n"); 
+    printf ("3 - Nutella\n"); 
+    printf ("Opção: "); 
+    scanf ("%d", &cobertura);
+
+switch (cobertura) {
+    case 1:
+    printf ("Você escolheu: leite condensado\n");
+    break;
+    case 2:
+    printf ("Você escolheu: chocolate branco\n");
+    break;
+    case 3:
+    printf ("Você escolheu: nutella\n");
+    break;
+    
+    default:
+    printf ("Essa cobertura não está disponível!\n");
+    return 1;
+} 
+printf ("\n Escolha a fruta:\n");
+    printf ("1 - Morango\n"); 
+    printf ("2 - Banana\n"); 
+    printf ("3 - Uva\n"); 
+    printf ("Opção: "); 
+    scanf ("%d", &fruta);
+
+switch (fruta) {
+    case 1:
+    printf ("Você escolheu: morango\n");
+    break;
+    case 2:
+    printf ("Você escolheu: banana\n");
+    break;
+    case 3:
+    printf ("Você escolheu: uva\n");
+    break;
+    
+    default:
+    printf ("Essa fruta não está disponível!\n");
+    return 1;
+}
+
+ printf ("\n Escolha o adicional:\n");
+    printf ("1 - Ovomaltine\n"); 
+    printf ("2 - Leite em pó\n"); 
+    printf ("3 - M&M\n"); 
+    printf ("Opção: "); 
+    scanf ("%d", &adicional);
+
+switch (adicional) {
+    case 1:
+    printf ("Você escolheu: ovomaltine\n");
+    break;
+    case 2:
+    printf ("Você escolheu: leite em pó\n");
+    break;
+    case 3:
+    printf ("Você escolheu: M&M\n");
+    break;
+    
+    default:
+    printf ("Esse adicional não está disponível!\n");
+    return 1;
+}
+
+printf ("Você escolheu seu açai:", ("%d", &embalagem) ("%d", &calda) ("%d", &cobertura) ("%d", &fruta) ("%d", &adicional));
+
+return 0;
+}
