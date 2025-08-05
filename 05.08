@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+   struct produto item;
+   int opcao
+   switch(opcao){
+       case 1:
+       printf("nome:% s\n", item.nome);
+       item.codigo
+       item.preco
+       item.data_validade
+       case 2:
+       printf(codigo:% s\n", item.codigo);
+       break:
+       case 3:
+       printf(preco:% s\n", item.preco);
+       break:
+       case 4:
+       printf(data_validade:% s\n", item.data_validade);
+       break:
+       default
+       printf ("Essa opção não está disponível.");
+   }
+     
+    return 0;
+}
