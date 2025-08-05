@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() {
+    char nome, int codigo, int preco, char data_de_validade 
+    printf("Digite o nome do produto:");
+    scanf ("% s\n", & nome);
+    printf("Digite o código do produto:");
+    scanf ("% s\n", & codigo);
+    printf("Digite o preço do produto:");
+    scanf ("% s\n", & preço);
+    printf("Digite a data de validade do produto:");
+    scanf ("% s\n", & data_de_validade);
+   struct produto item;
+   int opcao
+   switch(opcao){
+       case 1:
+       printf("nome:% s\n", nome);
+       break;
+       case 2:
+       printf("codigo:% s\n", codigo);
+       break:
+       case 3:
+       printf("preco:% s\n", preco);
+       break:
+       case 4:
+       printf("data_validade:% s\n", data_validade);
+       break:
+       default
+       printf ("Essa opção não está disponível.");
+   }
+     
+    return 0;
+}
