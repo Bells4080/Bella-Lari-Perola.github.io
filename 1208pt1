@@ -1,0 +1,145 @@
+#include <stdio.h>
+
+int main() {
+   struct perosnagem{
+       char Kregvan
+       char Sommus
+       char Tyana
+       char Fall
+   }
+   
+    struct poderes{
+       char Manipulação das Sombras
+       char Manipulação de Luz e Fogo
+       char Toque da Memória
+       char Manipulação de Sangue
+   } 
+   
+   struct arma{
+       char Leques e Fitas
+       char Adagas 
+       char Arco e Flecha
+       char Revólver
+   }  
+   
+ struct mapa{
+       char Floresta das Sombras
+       char O Reino Marinho Esquecido
+       char Ruínas de Gurlan
+       char Cidade das Luzes Azuis
+   }
+ struct vilao{
+       char Mestre das Sombras
+       char Cavaleiro Fantasma
+       char Zordan
+       char Arauto da Água
+   }
+   
+    struct perda_de_vida_em_luta {
+       int 150
+       int 80
+       int 20
+   }
+   struct cura {
+       int 110
+       int 50
+       int 6
+   }
+   
+   printf("\n EScolha seu personagem: \n");
+   printf ("1 - Kregvan\n");
+   printf ("2 - Sommus\n");
+   printf ("3 - Tyana\n");
+   printf ("4 - Fall\n");
+   scanf ("%d", & personagem);
+   
+   switch case (personagem){
+       case 1: printf ("Personagem escolhido: Kregvan\n"); 
+       break;
+       case 2: printf ("Personagem escolhido: Sommus\n"); 
+       break;
+       case 3: printf ("Personagem escolhido: Tyana\n"); 
+       break;
+       case 4: printf ("Personagem escolhido: Fall\n"); 
+       break;
+       default: print ("Opção inválida\n")
+   }
+   
+   printf("\n EScolha seu poder: \n");
+   printf ("1 - Manipulação das Sombras\n");
+   printf ("2 - Manipulação de Luz e Fogo\n");
+   printf ("3 - Toque da Memória\n");
+   printf ("4 - Manipulação de Sangue\n");
+   scanf ("%d", & poder);
+   
+   switch case (poder){
+       case 1: printf ("Poder escolhido: Manipulação das Sombras\n"); 
+       break;
+       case 2: printf ("Poder escolhido: Manipulação de Luz e Fogo\n"); 
+       break;
+       case 3: printf ("Poder escolhido: Toque da Memória\n"); 
+       break;
+       case 4: printf ("Poder escolhido: Manipulação de Sangue\n"); 
+       break;
+       default: print ("Opção inválida\n")
+   }
+   
+   printf("\n EScolha sua arma: \n");
+   printf ("1 - Leques e Fitas\n");
+   printf ("2 - Adagas\n");
+   printf ("3 - Arco e Flecha\n");
+   printf ("4 - Revólver\n");
+   scanf ("%d", & arma);
+   
+   switch case (poder){
+       case 1: printf ("Arma escolhida: Leques e Fitas\n"); 
+       break;
+       case 2: printf ("Arma escolhida: Adagas\n"); 
+       break;
+       case 3: printf ("Arma escolhida:  Arco e Flecha\n"); 
+       break;
+       case 4: printf ("Arma escolhida: Revólver\n"); 
+       break;
+       default: print ("Opção inválida\n")
+   }
+   
+   printf("\n EScolha o mapa: \n");
+   printf ("1 - Floresta das Sombras\n");
+   printf ("2 - O Reino Marinho Esquecido\n");
+   printf ("3 - Ruínas de Gurlan\n");
+   printf ("4 - Cidade das Luzes Azuis\n");
+   scanf ("%d", & mapa );
+   
+   switch case (mapa){
+       case 1: printf ("Mapa escolhido: Floresta das Sombras\n"); 
+       break;
+       case 2: printf ("Mapa escolhido: O Reino Marinho Esquecido\n"); 
+       break;
+       case 3: printf ("Mapa escolhido: Ruínas de Gurlan\n"); 
+       break;
+       case 4: printf ("Mapa escolhido: Cidade das Luzes Azuis\n"); 
+       break;
+       default: print ("Opção inválida\n")
+   }
+   
+    printf("\n Escolha o vilão: \n");
+   printf ("1 - Mestre das Sombras\n");
+   printf ("2 - Cavaleiro Fantasma\n");
+   printf ("3 - Zordan\n");
+   printf ("4 - Arauto da Água\n");
+   scanf ("%d", & vilao );
+   
+   switch case (vilao){
+       case 1: printf ("Vilão escolhido: Mestre das Sombras\n"); 
+       break;
+       case 2: printf ("Vilão escolhido: Cavaleiro Fantasma\n"); 
+       break;
+       case 3: printf ("Vilão escolhido: Zordan\n"); 
+       break;
+       case 4: printf ("Vilão escolhido: Arauto da Água\n"); 
+       break;
+       default: print ("Opção inválida\n")
+   }
+   
+    return 0;
+}
