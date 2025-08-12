@@ -1,0 +1,90 @@
+#include <stdio.h>
+
+int main() {
+    int personagem, poder, arma, mapa, vilao;
+
+    printf("\nEscolha seu personagem:\n");
+    printf("1 - Kregvan\n");
+    printf("2 - Sommus\n");
+    printf("3 - Tyana\n");
+    printf("4 - Fall\n");
+    printf("Opção: ");
+    scanf("%d", &personagem);
+
+    switch (personagem) {
+        case 1: printf("Personagem escolhido: Kregvan\n"); break;
+        case 2: printf("Personagem escolhido: Sommus\n"); break;
+        case 3: printf("Personagem escolhido: Tyana\n"); break;
+        case 4: printf("Personagem escolhido: Fall\n"); break;
+        default: printf("Opção inválida\n"); return 1;
+    }
+
+    printf("\nEscolha seu poder:\n");
+    printf("1 - Manipulação das Sombras\n");
+    printf("2 - Manipulação de Luz e Fogo\n");
+    printf("3 - Toque da Memória\n");
+    printf("4 - Manipulação de Sangue\n");
+    printf("Opção: ");
+    scanf("%d", &poder);
+
+    switch (poder) {
+        case 1: printf("Poder escolhido: Manipulação das Sombras\n"); break;
+        case 2: printf("Poder escolhido: Manipulação de Luz e Fogo\n"); break;
+        case 3: printf("Poder escolhido: Toque da Memória\n"); break;
+        case 4: printf("Poder escolhido: Manipulação de Sangue\n"); break;
+        default: printf("Opção inválida\n"); return 1;
+    }
+
+    printf("\nEscolha sua arma:\n");
+    printf("1 - Leques e Fitas\n");
+    printf("2 - Adagas\n");
+    printf("3 - Arco e Flecha\n");
+    printf("4 - Revólver\n");
+    printf("Opção: ");
+    scanf("%d", &arma);
+
+    switch (arma) {
+        case 1: printf("Arma escolhida: Leques e Fitas\n"); break;
+        case 2: printf("Arma escolhida: Adagas\n"); break;
+        case 3: printf("Arma escolhida: Arco e Flecha\n"); break;
+        case 4: printf("Arma escolhida: Revólver\n"); break;
+        default: printf("Opção inválida\n"); return 1;
+    }
+
+    printf("\nEscolha o mapa:\n");
+    printf("1 - Floresta das Sombras\n");
+    printf("2 - O Reino Marinho Esquecido\n");
+    printf("3 - Ruínas de Gurlan\n");
+    printf("4 - Cidade das Luzes Azuis\n");
+    printf("Opção: ");
+    scanf("%d", &mapa);
+
+    switch (mapa) {
+        case 1: printf("Mapa escolhido: Floresta das Sombras\n"); break;
+        case 2: printf("Mapa escolhido: O Reino Marinho Esquecido\n"); break;
+        case 3: printf("Mapa escolhido: Ruínas de Gurlan\n"); break;
+        case 4: printf("Mapa escolhido: Cidade das Luzes Azuis\n"); break;
+        default: printf("Opção inválida\n"); return 1;
+    }
+
+    printf("\nEscolha o vilão:\n");
+    printf("1 - Mestre das Sombras\n");
+    printf("2 - Cavaleiro Fantasma\n");
+    printf("3 - Zordan\n");
+    printf("4 - Arauto da Água\n");
+    printf("Opção: ");
+    scanf("%d", &vilao);
+
+    switch (vilao) {
+        case 1: printf("Vilão escolhido: Mestre das Sombras\n"); break;
+        case 2: printf("Vilão escolhido: Cavaleiro Fantasma\n"); break;
+        case 3: printf("Vilão escolhido: Zordan\n"); break;
+        case 4: printf("Vilão escolhido: Arauto da Água\n"); break;
+        default: printf("Opção inválida\n"); return 1;
+    }
+
+    printf("\nResumo da sua escolha:\n");
+    printf("Personagem: %d, Poder: %d, Arma: %d, Mapa: %d, Vilão: %d\n", personagem, poder, arma, mapa, vilao);
+
+    return 0;
+}
