@@ -1,0 +1,87 @@
+#include <stdio.h>
+#include <ctype.h>
+
+void quiz() {
+    int score = 0;
+    char resposta;
+
+    printf("Bem-vindo ao quiz! Responda as perguntas com S (Sim) ou N (Não).\n\n");
+
+    // Pergunta 1
+    printf("1. Larissa nasceu em 2006? (S/N)\n");
+    printf("Sua resposta: ");
+    scanf(" %c", &resposta);
+    resposta = toupper(resposta);
+    if (resposta == 'S') score++;
+
+    // Pergunta 2
+    printf("\n2. Pérola gosta de dormir? (S/N)\n");
+    printf("Sua resposta: ");
+    scanf(" %c", &resposta);
+    resposta = toupper(resposta);
+    if (resposta == 'S') score++;
+
+    // Pergunta 3
+    printf("\n3. Isabella gosta de uvas passas? (S/N)\n");
+    printf("Sua resposta: ");
+    scanf(" %c", &resposta);
+    resposta = toupper(resposta);
+    if (resposta == 'S') score++;
+
+    // Pergunta 4
+    printf("\n4. Larissa odeia ler? (S/N)\n");
+    printf("Sua resposta: ");
+    scanf(" %c", &resposta);
+    resposta = toupper(resposta);
+    if (resposta == 'N') score++;
+
+    // Pergunta 5
+    printf("\n5. Pérola gosta de chocolate? (S/N)\n");
+    printf("Sua resposta: ");
+    scanf(" %c", &resposta);
+    resposta = toupper(resposta);
+    if (resposta == 'S') score++;
+
+    // Pergunta 6
+    printf("\n6. Isabella gosta do Jacks? (S/N)\n");
+    printf("Sua resposta: ");
+    scanf(" %c", &resposta);
+    resposta = toupper(resposta);
+    if (resposta == 'S') score++;
+
+    // Pergunta 7
+    printf("\n7. A cor favorita de Larissa é azul? (S/N)\n");
+    printf("Sua resposta: ");
+    scanf(" %c", &resposta);
+    resposta = toupper(resposta);
+    if (resposta == 'S') score++;
+
+    // Pergunta 8
+    printf("\n8. A cor favorita da Pérola é amarelo? (S/N)\n");
+    printf("Sua resposta: ");
+    scanf(" %c", &resposta);
+    resposta = toupper(resposta);
+    if (resposta == 'N') score++;
+
+    // Pergunta 9
+    printf("\n9. Isabella gostava do nosso antigo professor Fernando? (S/N)\n");
+    printf("Sua resposta: ");
+    scanf(" %c", &resposta);
+    resposta = toupper(resposta);
+    if (resposta == 'N') score++;
+
+    // Pergunta 10
+    printf("\n10. Somos amigas há 4 anos? (S/N)\n");
+    printf("Sua resposta: ");
+    scanf(" %c", &resposta);
+    resposta = toupper(resposta);
+    if (resposta == 'N') score++;
+
+    // Resultado final
+    printf("\nFim do quiz! Você acertou %d de 10 perguntas.\n", score);
+}
+
+int main() {
+    quiz();
+    return 0;
+}
